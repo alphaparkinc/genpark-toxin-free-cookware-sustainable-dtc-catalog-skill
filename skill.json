@@ -1,0 +1,35 @@
+{
+  "name": "genpark-toxin-free-cookware-sustainable-dtc-catalog-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - 100% toxin-free natural cookware recommendation catalog and sustainable kitchen health profiler.",
+  "author": "genpark",
+  "category": "dtc",
+  "tags": [
+    "sustainable-cookware",
+    "toxin-free",
+    "cast-iron",
+    "dtc-kitchen",
+    "indusvalley"
+  ],
+  "inputs": {
+    "cooking_style": {
+      "type": "string"
+    },
+    "stovetop_type": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "recommended_catalog": {
+      "type": "array"
+    },
+    "chemical_toxin_free_guarantee": {
+      "type": "string"
+    },
+    "plastic_neutral_packaging": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
